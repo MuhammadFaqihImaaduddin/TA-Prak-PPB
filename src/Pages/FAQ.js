@@ -6,7 +6,7 @@ const FAQ = () => {
     {
       id: 1,
       question: 'Apa itu sistem rating lokasi?',
-      answer: 'Sistem rating lokasi adalah metode yang digunakan untuk menilai dan memberikan umpan balik tentang lokasi tertentu berdasarkan pengalaman pengguna. Pengguna dapat memberikan peringkat dan meninjau lokasi berdasarkan berbagai kriteria seperti kebersihan, pelayanan, dan kenyamanan.',
+      answer: 'Situs web tentang lokasi adalah platform yang menyediakan informasi terkait titik koordinat, zona waktu dan populasi.',
     },
     {
       id: 2,
@@ -20,8 +20,8 @@ const FAQ = () => {
     },
     {
       id: 4,
-      question: 'mobil?',
-      answer: 'Rating lokasi dapat diandalkan sebagai panduan umum, terutama jika berdasarkan pengalaman banyak pengguna. Namun, penting untuk diingat bahwa preferensi individu dapat bervariasi, jadi sangat dianjurkan untuk membaca ulasan dan mengevaluasi apakah lokasi tersebut sesuai dengan kebutuhan dan preferensi pribadi Anda.',
+      question: 'Apakah lokasi dapat dipercaya?',
+      answer: 'Ya, lokasi yang telah dibuat dalam web ini telah terpercaya sesuai dengan lokasi di tempat.',
     },
   ];
 

@@ -10,13 +10,13 @@ const Home = () => {
   return (
     <div className="home-container">
       <h2>Selamat datang di Halaman Utama!</h2>
-      <p>Temukan tempat impianmu bersama kami.</p>
+      <p>Mulailah hari dengan suapa informasi</p>
       <img
         className="home-image"
-        src="https://placekitten.com/800/400" 
+        src="https://asset-2.tstatic.net/batam/foto/bank/images/jalan-di-google-maps_20170621_080302.jpg" 
         alt="Perjalanan Impian"
       />
-      <p>Temukan destinasi menarik, rencanakan perjalananmu, dan nikmati pengalaman tak terlupakan.</p>
+      <p>Temukan informasi mengenai detail lokasi suatu negara di sini.</p>
       <Link to="/Destination" className="cta-button">
         Jelajahi Sekarang
       </Link>

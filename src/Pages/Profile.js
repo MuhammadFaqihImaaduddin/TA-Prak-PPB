@@ -10,7 +10,7 @@ const Profile = () => {
       <div className="profile-card">
         <img
           className="profile-image"
-          src="https://placekitten.com/200/200" // Ganti dengan URL gambar profil Anda
+          src="Screenshot 2023-11-25 162945.png"
           alt="Profil"
         />
         <div className="profile-info">

@@ -6,7 +6,7 @@ const navbar = () => {
     return (
         <nav className="navbar">
             <div className="nav-container">
-                <h1 className="navbar-logo"><img src='C:\Users\Asus\Music\ta_ppb_nyoba\public\istockphoto-1258141375-612x612.jpg'/></h1>
+                <h1 className="navbar-logo"></h1>
                 <ul className="nav-links">
                     <li className="nav-item">
                         <Link to="/" className="nav-link">Home</Link>
