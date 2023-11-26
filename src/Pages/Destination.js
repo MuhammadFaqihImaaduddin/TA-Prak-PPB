@@ -59,7 +59,7 @@ const OpenTripMapPlaces = () => {
                 <p>Populasi: {data.population}</p>
                 <p>Zona Waktu: {data.timezone}</p>
                 <p>Status: {data.status}</p>
-                <Link to="/destination2">
+                <Link to={`/Destination/${data.country.toLowerCase()}`}>
                   <button>Lihat Destinasi</button>
                 </Link>
               </>

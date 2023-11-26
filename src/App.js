@@ -8,6 +8,10 @@ import Destination from './Pages/Destination';
 import FAQ from './Pages/FAQ';
 import About from './Pages/About';
 import Profile from './Pages/Profile';
+import Pakistan from './Components/Destinations/Pakistan';
+import Indonesia from './Components/Destinations/Indonesia';
+import UnitedStates from './Components/Destinations/UnitedStates';
+import India from './Components/Destinations/India';
 import './App.css';
 // import OpenTripMap from './Components/OpenTripMap'
 // import FAQDetail from './Pages/FAQDetail';
@@ -25,11 +29,12 @@ function App() {
           <Route path="navbar" exact element={<Navbar />} />
           <Route path="/Destination" element={<Destination />} />
           <Route path="/FAQ" element={<FAQ  />} />
-          {/* <Route path="/FAQ-Detail/1" element={<FAQDetail  />} />
-          <Route path="/FAQ-Detail/2" element={<FAQDetail />} /> */}
           <Route path="/About" element={<About />} />
           <Route path="/Profile" element={<Profile />} />
-          {/* <Route path="/OpenTripMap" element={<OpenTripMap />} /> */}
+          <Route path="/Destination/pk" exact element={<Pakistan />} />
+          <Route path="/Destination/id" exact element={<Indonesia />} />
+          <Route path="/Destination/us" exact element={<UnitedStates />} />
+          <Route path="/Destination/it" exact element={<India />} />
         </Routes>
       </div>
     </BrowserRouter>
